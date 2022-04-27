@@ -1,0 +1,20 @@
+# config:
+#   target: 'http:/localhost:3000/reviews/1'
+#   phases:
+#     - duration: 10
+#       arrivalRate: 200
+#       name: Warm up
+#     - duration: 20
+#       arrivalRate: 400
+#       rampTo: 30
+#       name: Ramp up load
+#     - duration: 100
+#       arrivalRate: 600
+#       name: Sustained load
+
+# scenarios:
+#   - name: 'Search and buy'
+#     flow:
+#       - get:
+#           url: '/reviews/1'
+#       - think: 5
