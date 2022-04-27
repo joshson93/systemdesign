@@ -1,6 +1,6 @@
 ### Citadel System Design 
 
-##Table of Contents
+## Table of Contents
 
 - [Table of Contents](#table-of-contents)
 - [General Info](#general-info)
