@@ -1,4 +1,4 @@
-### Citadel System Design 
+## Citadel System Design 
 
 ## Table of Contents
 
@@ -13,6 +13,10 @@ Citadel System Design is a backend system able to withstand hundreds of requests
 The backend architecture consists of a PostgreSQL database connected by 3 Amazon Web Services (AWS) EC2 t2.micro instances all managed by an AWS Load Balancer. 
 Loader.io was used to conduct the load balancer's stress test. 
 While there is no demo due to AWS operational costs, there is a github link to show the exact code that made this robust backend.
+
+## Architecture
+
+![architecture](https://user-images.githubusercontent.com/36024606/165439093-283e85a1-a72e-4267-8afe-c861f1c50632.jpg)
 
 ## Technologies
 
