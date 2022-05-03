@@ -26,6 +26,7 @@ Project is created with:
 - Node.js
 - Artillery.io
 - Loader.io
+- Amazon Web Services
 
 ## Setup
 
